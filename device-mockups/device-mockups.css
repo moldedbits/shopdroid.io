@@ -738,6 +738,34 @@
 	top: 13.7681159%; bottom: 13.7681159%; left: 13.0911188%; right: 13.0911188%;
 }
 
+/* Nexus 6 */
+.device-mockup.nexus_6,
+.device-mockup.nexus_6.portrait {
+	padding-bottom: 194.188862%;
+}
+
+.device-mockup.nexus_6.landscape {
+	padding-bottom: 51.496259%;
+}
+
+.device-mockup.nexus_6 > .device,
+.device-mockup.nexus_6.portrait > .device {
+	background-image: url("nexus_6/nexus_6_port.png");
+}
+
+.device-mockup.nexus_6.landscape > .device {
+	background-image: url("nexus_6/nexus_6_land.png");
+}
+
+.device-mockup.nexus_6 > .device > .screen,
+.device-mockup.nexus_6.portrait > .device > .screen {
+	top: 10.2%; bottom: 10.1%; left: 6.3%; right: 6.4%;
+}
+
+.device-mockup.nexus_6.landscape > .device > .screen {
+  top: 6.6%; bottom: 6.2%; left: 10.15%; right: 10%;
+}
+
 
 /* Microsoft Surface */
 .device-mockup.surface,
